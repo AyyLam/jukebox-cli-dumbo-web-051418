@@ -51,7 +51,7 @@ def run
   answer = gets.chomp
   unless answer == "exit"
     if answer == "list"
-      list
+      list(songs)
     elsif answer == "play"
       play 
     elsif answer == "help"
