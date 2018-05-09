@@ -50,5 +50,16 @@ def run
   puts "Please enter a command:"
   answer = gets.chomp
   unless answer == "exit"
+    if answer == "list"
+      list
+    elsif answer == "play"
+      play 
+    elsif answer == "help"
+      help
+    end
+  end
+  exit_jukebox
+end
+
   
   
