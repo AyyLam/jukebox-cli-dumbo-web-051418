@@ -49,4 +49,6 @@ def run
   help
   puts "Please enter a command:"
   answer = gets.chomp
+  unless answer == "exit"
+  
   
