@@ -19,7 +19,12 @@ def help
  exit : exits this program"
 end
 
-def play 
+def play(songs)
+  counter = 1 
+  songs.each do |song|
+    puts "#{counter}. #{song}"
+    counter += 1 
+  end
 end
 
 def list 
