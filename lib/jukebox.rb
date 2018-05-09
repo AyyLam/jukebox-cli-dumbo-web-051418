@@ -19,7 +19,7 @@ def help
  exit : exits this program"
 end
 
-def play(songs)
+def list(songs)
   songs.each_with_index do |song, index|
     puts "#{index}. #{song}"
   end
