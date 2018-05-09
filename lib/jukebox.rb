@@ -34,4 +34,7 @@ def play(songs)
     if answer == song || answer == index 
       puts "Playing #{song}" 
     else 
-        
+      puts "Invalid input, please try again"
+    end
+  end
+end 
